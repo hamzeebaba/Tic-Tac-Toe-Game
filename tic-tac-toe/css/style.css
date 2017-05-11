@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  background-image:url("https://c1.staticflickr.com/4/3014/3039862669_80a0341bcb_b.jpg");
+  opacity: 1.2;
+  height: 100%;
+  color:blue;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+   height: 100%;
+}
+p { 
+  width: 100%;
+  font-size: 7vw;
+  margin: auto;
+  text-align: center;
+  display: none
+}
+button {
+  margin: auto;
+  padding: 10px;
+  font-size: 2vw;
+  cursor: pointer;
+  display: none
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none !important;
+}
+.box {
+  border: 2px solid white;
+  font-size: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30.333%;
+}
